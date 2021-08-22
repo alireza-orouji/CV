@@ -1,0 +1,80 @@
+body {
+  direction: rtl;
+  background-color: var(--main-color);
+  font-family: IRANSans;
+}
+
+.rounded-20px {
+  border-radius: 20px;
+}
+
+.rounded-top-20px {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rounded-botton-20px {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.rounded-10px {
+  border-radius: 10px;
+}
+
+.rounded-top-10px {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rounded-botton-10px {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-color-primary {
+  color: var(--text-color-primary) !important;
+}
+
+.text-color-primary-second {
+  color: var(--text-color-primary-second) !important;
+}
+
+.bg-color-light {
+  background-color: rgba(112, 112, 112, 0.35);
+}
+
+.text-0\.25 {
+  font-size: 0.25rem;
+}
+.text-0\.5 {
+  font-size: 0.5rem;
+}
+.text-0\.75 {
+    font-size: 0.75rem;
+  }
+.text-1 {
+  font-size: 1rem;
+}
+.text-2 {
+  font-size: 2rem;
+}
+.text-3 {
+  font-size: 3rem;
+}
+.text-4 {
+  font-size: 4rem;
+}
+.text-5 {
+  font-size: 5rem;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+:root {
+  --main-color: #f5f5f5;
+  --text-color-primary: #707070;
+  --text-color-primary-second: #565656;
+}
