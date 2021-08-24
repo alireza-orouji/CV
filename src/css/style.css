@@ -56,6 +56,9 @@ body {
 .text-1 {
   font-size: 1rem;
 }
+.text-1\.5{
+  font-size: 1.5rem;
+}
 .text-2 {
   font-size: 2rem;
 }
@@ -71,6 +74,10 @@ body {
 
 .h-100vh{
     height: 100vh;
+}
+
+.w-fit{
+  width: fit-content;
 }
 
 .content-header::after{
@@ -99,6 +106,83 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+.edu-card-rtl{
+  transform: translate(-93%,-50%)!important;
+}
+
+.edu-card-ltr{
+  transform: translate(-7%,-50%)!important;
+}
+
+.w-85{
+width: 85% !important;
+}
+
+.h-200px{
+  height: 200px;
+}
+.h-100px{
+  height: 100px;
+}
+.h-75px{
+  height: 75px;
+}
+.w-100px{
+  width: 100px;
+}
+.w-75px{
+  width: 75px;
+}
+
+
+.border-right {
+  border-right: 1px solid #dee2e6!important;
+}
+.border-left {
+  border-left: 1px solid #dee2e6!important;
+}
+
+.bg-pink{
+  background-color: #DA627D;
+}
+.bg-pink-light{
+  background-color: #FFA5AB;
+}
+
+.bg-blue{
+  background-color: #0096C7;
+}
+.bg-blue-light{
+  background-color: #00B4D8;
+}
+
+.bg-Green{
+  background-color: #76C893;
+}
+.bg-Green-light{
+  background-color: #99D98C;
+}
+
+.bg-grey{
+  background-color: #757575;
+}
+.bg-grey-light{
+  background-color: #a4a4a4;
+}
+
+.edu-color-white{
+  color: white;
+  opacity: 0.8;
+}
+.edu-color-white-light{
+  color: white;
+  opacity: 0.6;
+}
+
+.border-custom{
+  border-width: 5px !important;
 }
 
 :root {
