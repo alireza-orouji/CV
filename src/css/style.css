@@ -287,6 +287,10 @@ body {
   z-index: 1;
 }
 
+.project-card{
+  border-right: 5px solid var(--text-color-primary);
+}
+
 :root {
   --main-color: #f5f5f5;
   --text-color-primary: #707070;
